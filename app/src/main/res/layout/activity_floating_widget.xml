@@ -33,7 +33,6 @@
                 android:layout_width="180dp"
                 android:layout_height="57dp"
                 android:orientation="horizontal"
-                android:background="@drawable/back_icon"
                 >
 
                 <ImageView
@@ -88,11 +87,9 @@
                         android:layout_width="57dp"
                         android:layout_height="57dp"
                         android:visibility="invisible"
-                        android:src="@drawable/xx"
+                        android:src="@drawable/no_music_icon"
                         />
                 </RelativeLayout>
-
-
 
 
 
