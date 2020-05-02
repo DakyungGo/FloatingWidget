@@ -132,7 +132,7 @@ public class FloatingWidgetView extends FrameLayout implements View.OnTouchListe
 
                     ///
                     mFloatingView.findViewById(R.id.floatingIcon).setVisibility(INVISIBLE);
-                    mFloatingView.findViewById(R.id.floatingIcon2).setVisibility(VISIBLE);
+                    mFloatingView.findViewById(R.id.close_button).setVisibility(VISIBLE);
 
 
                 }

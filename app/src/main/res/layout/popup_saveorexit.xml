@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="254dp"
+    android:layout_height="150dp"
+    android:gravity="bottom"
+    android:background="@drawable/popup"
+    android:id="@+id/popup_saveorexit">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="변경사항을 저장하시겠습니까?"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_popup_save"
+            android:layout_width="127dp"
+            android:layout_height="40dp"
+            android:background="#BBC5CA"
+            android:textColor="#ffffff"
+            android:text="YES"
+
+            />
+
+        <Button
+            android:id="@+id/btn_popup_exit"
+            android:layout_width="127dp"
+            android:layout_height="40dp"
+            android:background="#F50155"
+            android:textColor="#ffffff"
+            android:text="NO"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
